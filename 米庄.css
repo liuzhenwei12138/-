@@ -1,0 +1,99 @@
+body{
+font-size:12px; font-family:"微软雅黑;黑体",Arial, Helvetica, sans-serif;color:#363636;background:#e5e5e5 url(../images/bpbg.jpg) center top no-repeat;}
+html, body, div, span, h1, h2, h3, h4, h5, h6, em, img, strong, sub, sup, tt,dd, dl, dt, form, label, table, caption, tbody, tfoot, thead, tr, th, td,ul,li,p,a{ margin: 0; padding: 0; }
+.cbody{ margin:0 auto;width:982px; position:relative;background:#FFF;}
+input,select,textarea{ vertical-align:middle;}
+img{ border:0;}
+ul,li{ list-style-type:none;}
+a:link,a:visited{
+text-decoration:none;color:#010101;}
+a:hover{text-decoration:underline;color:#ED0909;}
+.overhide{overflow:hidden;text-indent:-100em; }
+.clear {clear: both;}
+.clearfix:after {clear: both;content: ' ';display: block;font-size: 0;line-height: 0;visibility: hidden;width: 0;height: 0;}
+.clearfix{zoom:1}
+.mi1{
+	width: 100%;
+	height: 503px;
+	background:url(img/banner.jpg) no-repeat;
+	background-size:100%;
+	}
+.mi1_1{ 
+	position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    line-height: 97px;
+    background: rgba(22,34,54,.2);
+    
+    font-size: 14px;
+    -webkit-transition: .5s;
+    transition: .5s;
+    border-bottom: 1px solid rgba(220,220,220,.3);}
+  
+    .mi1_1_1{
+    	    width: 1000px;
+    height: inherit;
+    line-height: inherit;
+    margin: 0 auto;
+    }
+  .logo{
+    	z-index: 99;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: inline-block;
+    width: 310px;
+    height: inherit;
+    }
+    .nav{
+    float: right;
+    line-height: inherit;
+    }
+     .nav>li{
+    position: relative;
+    float: left;
+    line-height: inherit;
+    margin-right: 38px;
+     }
+     .nav>li a{
+     	    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 14px;
+     }
+     .btn{
+     	float: right;
+    padding: 0;
+    line-height: inherit
+     }
+     .btn li{
+     	    float: left;
+    line-height: inherit;
+    margin-right: 10px;
+     }
+     .btn li a{
+     	color: #fff;
+    font-size: 14px;
+    border: 1px solid #fff;
+    padding: 3px 12px;
+    border-radius: 30px;
+    -webkit-transition: color,border .5s;
+    transition: color,border .5s;
+    cursor: pointer
+     }
+     .contain{
+     	position: relative;
+    top: 50%;
+    width: 100%;
+    margin-top: -96px;
+     }
+     .mi1_2,.mi1_2_1,.mi1_2_1{
+     	    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-style: initial;
+     }
