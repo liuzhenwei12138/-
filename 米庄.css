@@ -63,7 +63,7 @@ a:hover{text-decoration:underline;color:#ED0909;}
     font-size: 14px;
      }
      .btn{
-     	float: right;
+     	float: left;
     padding: 0;
     line-height: inherit
      }
@@ -83,10 +83,10 @@ a:hover{text-decoration:underline;color:#ED0909;}
     cursor: pointer
      }
      .contain{
-     	position: relative;
-    top: 50%;
+     	position: absolute;
+    top: 150%;
     width: 100%;
-    margin-top: -96px;
+    
      }
      .mi1_2,.mi1_2_1,.mi1_2_1{
      	    margin: 0;
@@ -97,3 +97,29 @@ a:hover{text-decoration:underline;color:#ED0909;}
     vertical-align: baseline;
     font-style: initial;
      }
+     
+     .content{
+     	width: 80%;
+     	margin: 0 auto;
+     }
+     .title{
+     	line-height: 60px;
+     	font-size: 40px;
+     	font-weight: 600;
+     	color: #FFFFFF;
+     }
+     .text{
+     	line-height: 50px;
+     	font-size: 20px;
+     	font-weight: 100;
+     	color: #FFFFFF;
+     }
+ .text>label{
+	color:#ff6a48;
+	font-size: 27px;
+	font-weight: 300;
+}
+.btn span{
+	display: inline-block;
+	line-height: 32px;
+}
